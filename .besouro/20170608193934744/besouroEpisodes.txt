@@ -96,3 +96,7 @@
 1496947897886 test-addition 1 57 true
 1496947897887 test-addition 2 57 true
 1496947897888 test-addition 1 57 true
+1496948185417 test-addition 1 282 true
+1496948185418 test-addition 2 282 true
+1496948185419 test-addition 2 282 true
+1496948217011 regression 1 0 true

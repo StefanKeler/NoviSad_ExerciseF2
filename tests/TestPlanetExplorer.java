@@ -29,94 +29,94 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_pomeriNapred(){
+	public void test_pomeriNapred() throws PlanetExplorerException{
 		PlanetExplorer p = new PlanetExplorer(3, 3, "");
 		assertEquals("(0,1,n)", p.executeCommand("f"));
 	}
 	
 	@Test
-	public void test_pomeriNazad(){
+	public void test_pomeriNazad() throws PlanetExplorerException{
 		PlanetExplorer p = new PlanetExplorer(3, 3, "");
 		assertEquals("(0,0,n)", p.executeCommand("fb"));
 	}
 	
 	@Test
-	public void test_pomeriNazadSaPrebacivanjem(){
+	public void test_pomeriNazadSaPrebacivanjem() throws PlanetExplorerException{
 		PlanetExplorer p = new PlanetExplorer(3, 3, "");
 		assertEquals("(0,2,n)", p.executeCommand("b"));
 	}
 	
 	@Test
-	public void test_pomeriNapredSaPrebacivanjem(){
+	public void test_pomeriNapredSaPrebacivanjem() throws PlanetExplorerException{
 		PlanetExplorer p = new PlanetExplorer(3, 3, "");
 		assertEquals("(0,0,n)", p.executeCommand("fff"));
 	}
 	
 	@Test
-	public void test_pomeriRotirajDesno(){
+	public void test_pomeriRotirajDesno() throws PlanetExplorerException{
 		PlanetExplorer p = new PlanetExplorer(3, 3, "");
 		assertEquals("(0,0,e)", p.executeCommand("r"));
 	}
 	
 	@Test
-	public void test_pomeriRotirajLevo(){
+	public void test_pomeriRotirajLevo() throws PlanetExplorerException{
 		PlanetExplorer p = new PlanetExplorer(3, 3, "");
 		assertEquals("(0,0,w)", p.executeCommand("l"));
 	}
 	
 	@Test
-	public void test_pomeriRotirajDesnoPunKrug(){
+	public void test_pomeriRotirajDesnoPunKrug() throws PlanetExplorerException{
 		PlanetExplorer p = new PlanetExplorer(3, 3, "");
 		assertEquals("(0,0,n)", p.executeCommand("rrrr"));
 	}
 	
 	@Test
-	public void test_pomeriRotirajLevoPunKrug(){
+	public void test_pomeriRotirajLevoPunKrug() throws PlanetExplorerException{
 		PlanetExplorer p = new PlanetExplorer(3, 3, "");
 		assertEquals("(0,0,n)", p.executeCommand("llll"));
 	}
 	
 	@Test
-	public void test_pomeriRotirajDesnoIdiNapred(){
+	public void test_pomeriRotirajDesnoIdiNapred() throws PlanetExplorerException{
 		PlanetExplorer p = new PlanetExplorer(3, 3, "");
 		assertEquals("(1,0,e)", p.executeCommand("rf"));
 	}
 	
 	@Test
-	public void test_pomeriRotirajLevoIdiNapred(){
+	public void test_pomeriRotirajLevoIdiNapred() throws PlanetExplorerException{
 		PlanetExplorer p = new PlanetExplorer(3, 3, "");
 		assertEquals("(2,0,w)", p.executeCommand("lf"));
 	}
 	
 	@Test
-	public void test_pomeriRotirajDesnoIdiNazad(){
+	public void test_pomeriRotirajDesnoIdiNazad() throws PlanetExplorerException{
 		PlanetExplorer p = new PlanetExplorer(3, 3, "");
 		assertEquals("(2,0,e)", p.executeCommand("rb"));
 	}
 
 	@Test
-	public void test_pomeriRotirajLevoIdiNazad(){
+	public void test_pomeriRotirajLevoIdiNazad() throws PlanetExplorerException{
 		PlanetExplorer p = new PlanetExplorer(3, 3, "");
 		assertEquals("(1,0,w)", p.executeCommand("lb"));
 	}
 	
 	@Test
-	public void test_pomeriRotirajDesnoDesnoIdiNapred(){
+	public void test_pomeriRotirajDesnoDesnoIdiNapred() throws PlanetExplorerException{
 		PlanetExplorer p = new PlanetExplorer(3, 3, "");
 		assertEquals("(0,2,s)", p.executeCommand("rrf"));
 	}
 	
 	
 	@Test
-	public void test_pomeriRotirajDesnoDesnoIdiNazad(){
+	public void test_pomeriRotirajDesnoDesnoIdiNazad() throws PlanetExplorerException{
 		PlanetExplorer p = new PlanetExplorer(3, 3, "");
 		assertEquals("(0,1,s)", p.executeCommand("rrb"));
 	}
 	
 	@Test(expected = PlanetExplorerException.class)
-	public void test_exceptionPogresanUnos(){
+	public void test_exceptionPogresanUnos() throws PlanetExplorerException{
 		PlanetExplorer p = new PlanetExplorer(3, 3, "");
-		p.executeCommand("rrb");
+		p.executeCommand("asdw!!");
 	}
 	
 	

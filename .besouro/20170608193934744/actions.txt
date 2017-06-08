@@ -236,3 +236,13 @@ RefactoringAction 1496947902615 TestPlanetExplorer.java ADD void test_pomeriRoti
 RefactoringAction 1496947906128 TestPlanetExplorer.java RENAME test_pomeriRotirajDesnoDesnoIdiNazad()/2=>void test_ex() METHOD
 RefactoringAction 1496947913146 TestPlanetExplorer.java RENAME test_ex()=>void test_exceptionPogresanUnos() METHOD
 EditAction 1496947943732 TestPlanetExplorer.java 3055 19 38 18
+UnitTestCaseAction 1496947951526 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496947951528 TestPlanetExplorer.java FAIL
+CompilationAction 1496948088242 TestPlanetExplorer.java
+CompilationAction 1496948150075 TestPlanetExplorer.java
+UnitTestCaseAction 1496948151132 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496948151134 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1496948185415 TestPlanetExplorer.java OK
+UnitTestSessionAction 1496948185417 TestPlanetExplorer.test_exceptionPogresanUnos OK
+UnitTestCaseAction 1496948217010 TestPlanetExplorer.java OK
+UnitTestSessionAction 1496948217011 TestPlanetExplorer.java OK

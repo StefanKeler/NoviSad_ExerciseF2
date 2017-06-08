@@ -1,7 +1,7 @@
 
 // Before you commit and push write your student ID and finish time here.
-// Finish time:
-// Student ID:
+// Finish time: 20:45
+// Student ID: IT27/2015
 
 public class PlanetExplorer {
 	int gridX,gridY;
@@ -25,7 +25,7 @@ public class PlanetExplorer {
 		intStrane = 0;
 	}
 	
-	public String executeCommand(String command){
+	public String executeCommand(String command) throws PlanetExplorerException{
 		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
@@ -38,52 +38,63 @@ public class PlanetExplorer {
 		 */
 	    //System.out.println(command);
 		for(int i = 0; i < command.length(); i++){
-			String c = command.substring(i, i+1);
-			if(c.equals("f")){
-				switch(intStrane){
-				case 0:
-					voziloY++;
-					break;
-				case 1:
-					voziloX++;
-					break;
-				case 2:
-					voziloY--;
-					break;
-				case 3:
-					voziloX--;
-					break;
-				}
+			String c;
+			try {
+				c = command.substring(i, i+1);
 				
-				
-				
-			}else if (c.equals("b")){
-				
-				switch(intStrane){
-				case 0:
-					voziloY--;
-					break;
-				case 1:
-					voziloX--;
-					break;
+				if(c.equals("f")){
+					switch(intStrane){
+					case 0:
+						voziloY++;
+						break;
+					case 1:
+						voziloX++;
+						break;
+					case 2:
+						voziloY--;
+						break;
+					case 3:
+						voziloX--;
+						break;
+					}
 					
-				case 2:
-					voziloY++;
-					break;
-				case 3:
-					voziloX++;
-					break;
+					
+					
+				}else if (c.equals("b")){
+					
+					switch(intStrane){
+					case 0:
+						voziloY--;
+						break;
+					case 1:
+						voziloX--;
+						break;
+						
+					case 2:
+						voziloY++;
+						break;
+					case 3:
+						voziloX++;
+						break;
+					}
+					
+					
+				}else if(c.equals("r")){
+					intStrane++;
+					intStrane = intStrane % 4;
+				}else if (c.equals("l")){
+					intStrane--;
+					if(intStrane == - 1)
+						intStrane = 3;
+				}else{
+					throw new PlanetExplorerException();
 				}
 				
+			} catch (Exception e) {
+				throw new PlanetExplorerException();
 				
-			}else if(c.equals("r")){
-				intStrane++;
-				intStrane = intStrane % 4;
-			}else if (c.equals("l")){
-				intStrane--;
-				if(intStrane == - 1)
-					intStrane = 3;
 			}
+			
 			
 			proveri();
 		}
@@ -94,6 +105,9 @@ public class PlanetExplorer {
 	public void proveri(){
 		if(voziloY == gridY){
 			voziloY = 0;
+		}
+		if(voziloX == gridX){
+			voziloX = 0;
 		}
 		if(voziloX == -1){
 			voziloX = gridX - 1;
