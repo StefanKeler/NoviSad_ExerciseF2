@@ -33,3 +33,4 @@ RefactoringAction 1496944549516 TestPlanetExplorer.java ADD void test_ FIELD
 RefactoringAction 1496944557031 TestPlanetExplorer.java RENAME test_=>void test_pocetneKoordinate() METHOD
 RefactoringAction 1496944585599 PlanetExplorer.java ADD Object getVoziloKoor() METHOD
 EditAction 1496944592941 PlanetExplorer.java 1488 4 5 0
+EditAction 1496944609110 TestPlanetExplorer.java 500 3 6 3

@@ -15,5 +15,11 @@ public class TestPlanetExplorer {
 		PlanetExplorer p = new PlanetExplorer(3, 3, "");
 		assertEquals("3x3", p.getGridSize());
 	}
+	
+	@Test
+	public void test_pocetneKoordinate(){
+		PlanetExplorer p = new PlanetExplorer(3, 3, "");
+		assertEquals("(0,0)", p.getVoziloKoor());
+	}
 
 }
