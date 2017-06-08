@@ -64,4 +64,10 @@ public class TestPlanetExplorer {
 		assertEquals("(0,0,w)", p.executeCommand("l"));
 	}
 	
+	@Test
+	public void test_pomeriRotirajDesnoPunKrug(){
+		PlanetExplorer p = new PlanetExplorer(3, 3, "");
+		assertEquals("(0,0,n)", p.executeCommand("rrrr"));
+	}
+	
 }

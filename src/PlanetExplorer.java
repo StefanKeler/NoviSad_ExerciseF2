@@ -48,9 +48,13 @@ public class PlanetExplorer {
 				if(voziloY == -1){
 					voziloY = gridY - 1;
 				}
-			}if(c.equals("r")){
+			}else if(c.equals("r")){
 				intStrane++;
 				intStrane = intStrane % 4;
+			}else if (c.equals("l")){
+				intStrane--;
+				if(intStrane == - 1)
+					intStrane = 3;
 			}
 		}
 		
