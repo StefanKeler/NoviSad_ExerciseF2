@@ -52,3 +52,6 @@ RefactoringAction 1496944881934 TestPlanetExplorer.java RENAME test_pocetnA()=>v
 RefactoringAction 1496944911834 PlanetExplorer.java ADD Object getVoziloStrana() METHOD
 EditAction 1496944919371 PlanetExplorer.java 1662 5 8 0
 EditAction 1496944931832 TestPlanetExplorer.java 639 4 8 4
+UnitTestCaseAction 1496944943467 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496944943469 TestPlanetExplorer.java FAIL
+EditAction 1496944948964 PlanetExplorer.java 1663 5 8 0

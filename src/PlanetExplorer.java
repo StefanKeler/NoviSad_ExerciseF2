@@ -47,6 +47,6 @@ public class PlanetExplorer {
 
 	public String getVoziloStrana() {
 		// TODO Auto-generated method stub
-		return "";
+		return "n";
 	}
 }
