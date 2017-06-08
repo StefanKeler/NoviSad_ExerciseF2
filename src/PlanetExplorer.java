@@ -38,6 +38,9 @@ public class PlanetExplorer {
 			String c = command.substring(i, i+1);
 			if(c.equals("f")){
 				voziloY++;
+				if(voziloY == gridY){
+					voziloY = 0;
+				}
 			}else if (c.equals("b")){
 				voziloY--;
 				if(voziloY == -1){

@@ -117,3 +117,11 @@ UnitTestSessionAction 1496945975692 TestPlanetExplorer.java OK
 RefactoringAction 1496945987168 TestPlanetExplorer.java ADD void test_pomeriNazadSaPrebacivanjem()/2 METHOD
 RefactoringAction 1496945991679 TestPlanetExplorer.java RENAME test_pomeriNazadSaPrebacivanjem()/2=>void test_pomeriNapredSaPrebacivanjem() METHOD
 EditAction 1496946010637 TestPlanetExplorer.java 1260 8 16 8
+UnitTestCaseAction 1496946025875 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496946025876 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1496946062923 TestPlanetExplorer.java OK
+UnitTestSessionAction 1496946062924 TestPlanetExplorer.java OK
+RefactoringAction 1496946077273 TestPlanetExplorer.java ADD void test_pomeriNapredSaPrebacivanjem()/2 METHOD
+RefactoringAction 1496946081784 TestPlanetExplorer.java RENAME test_pomeriNapredSaPrebacivanjem()/2=>void test_pomeriRotiraj() METHOD
+RefactoringAction 1496946091805 TestPlanetExplorer.java RENAME test_pomeriRotiraj()=>void test_pomeriRotirajDesno() METHOD
+EditAction 1496946159025 TestPlanetExplorer.java 1413 9 18 9

@@ -52,4 +52,10 @@ public class TestPlanetExplorer {
 		assertEquals("(0,0,n)", p.executeCommand("fff"));
 	}
 	
+	@Test
+	public void test_pomeriRotirajDesno(){
+		PlanetExplorer p = new PlanetExplorer(3, 3, "");
+		assertEquals("(0,0,i)", p.executeCommand("r"));
+	}
+	
 }
