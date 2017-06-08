@@ -38,6 +38,8 @@ public class PlanetExplorer {
 			String c = command.substring(i, i+1);
 			if(c.equals("f")){
 				voziloY++;
+			}else if (c.equals("b")){
+				voziloY--;
 			}
 		}
 		

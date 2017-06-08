@@ -29,3 +29,7 @@
 1496945645536 test-first 3 600 true
 1496945645537 test-first 3 600 true
 1496945645538 test-first 3 600 true
+1496945810900 test-addition 2 152 true
+1496945810901 test-addition 1 152 true
+1496945810902 test-addition 2 152 true
+1496945810903 test-addition 1 152 true
