@@ -90,3 +90,9 @@ UnitTestSessionAction 1496945590649 TestPlanetExplorer.java FAIL
 UnitTestCaseAction 1496945615198 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1496945615200 TestPlanetExplorer.java FAIL
 EditAction 1496945631152 PlanetExplorer.java 1910 5 11 0
+UnitTestCaseAction 1496945645521 TestPlanetExplorer.java OK
+UnitTestSessionAction 1496945645523 TestPlanetExplorer.java OK
+RefactoringAction 1496945658727 TestPlanetExplorer.java ADD void test_pomeriNapred()/2 METHOD
+RefactoringAction 1496945664743 TestPlanetExplorer.java RENAME test_pomeriNapred()/2=>void test_pomeriDesno() METHOD
+RefactoringAction 1496945680774 TestPlanetExplorer.java RENAME test_pomeriDesno()=>void test_pomeriNazad() METHOD
+EditAction 1496945693412 TestPlanetExplorer.java 934 6 12 6

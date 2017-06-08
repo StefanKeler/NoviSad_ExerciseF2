@@ -34,4 +34,10 @@ public class TestPlanetExplorer {
 		assertEquals("(0,1,n)", p.executeCommand("f"));
 	}
 	
+	@Test
+	public void test_pomeriNazad(){
+		PlanetExplorer p = new PlanetExplorer(3, 3, "");
+		assertEquals("(0,3,n)", p.executeCommand("n"));
+	}
+	
 }
