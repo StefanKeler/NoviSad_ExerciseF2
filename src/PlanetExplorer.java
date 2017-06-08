@@ -22,6 +22,7 @@ public class PlanetExplorer {
 		voziloX = 0;
 		voziloY = 0;
 		strana = "n";
+		intStrane = 0;
 	}
 	
 	public String executeCommand(String command){
@@ -39,10 +40,15 @@ public class PlanetExplorer {
 		for(int i = 0; i < command.length(); i++){
 			String c = command.substring(i, i+1);
 			if(c.equals("f")){
-				voziloY++;
-				if(voziloY == gridY){
-					voziloY = 0;
+				switch(intStrane){
+				case 0:
+					voziloY++;
+					if(voziloY == gridY){
+						voziloY = 0;
+					}
+					break;
 				}
+				
 			}else if (c.equals("b")){
 				voziloY--;
 				if(voziloY == -1){
