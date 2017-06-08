@@ -93,5 +93,11 @@ public class TestPlanetExplorer {
 		PlanetExplorer p = new PlanetExplorer(3, 3, "");
 		assertEquals("(2,0,e)", p.executeCommand("rb"));
 	}
+
+	@Test
+	public void test_pomeriRotirajLevoIdiNazad(){
+		PlanetExplorer p = new PlanetExplorer(3, 3, "");
+		assertEquals("(1,0,w)", p.executeCommand("lb"));
+	}
 	
 }

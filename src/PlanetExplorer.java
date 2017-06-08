@@ -53,17 +53,22 @@ public class PlanetExplorer {
 				}
 				
 				
-				if(voziloY == gridY){
-					voziloY = 0;
-				}
-				if(voziloX == -1){
-					voziloX = gridX - 1;
-				}
+				
 			}else if (c.equals("b")){
-				voziloY--;
-				if(voziloY == -1){
-					voziloY = gridY - 1;
+				
+				switch(intStrane){
+				case 0:
+					voziloY--;
+					break;
+				case 1:
+					voziloX--;
+					break;
+				case 3:
+					voziloX++;
+					break;
 				}
+				
+				
 			}else if(c.equals("r")){
 				intStrane++;
 				intStrane = intStrane % 4;
@@ -72,11 +77,24 @@ public class PlanetExplorer {
 				if(intStrane == - 1)
 					intStrane = 3;
 			}
+			proveri();
 		}
 		
 		return "(" + voziloX + "," + voziloY + "," + strane[intStrane] + ")";
 	}
-
+	
+	public void proveri(){
+		if(voziloY == gridY){
+			voziloY = 0;
+		}
+		if(voziloX == -1){
+			voziloX = gridX - 1;
+		}
+		if(voziloY == -1){
+			voziloY = gridY - 1;
+		}
+	}
+	
 	public String getGridSize() {
 		// TODO Auto-generated method stub
 		return gridX + "x" + gridY;
