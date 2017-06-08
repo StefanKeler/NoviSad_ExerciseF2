@@ -204,3 +204,8 @@ RefactoringAction 1496947454103 TestPlanetExplorer.java ADD void test_pomeriRoti
 RefactoringAction 1496947457113 TestPlanetExplorer.java RENAME test_pomeriRotirajLevoIdiNazad()/2=>void test_pomeriRotirajDIdiNazad() METHOD
 RefactoringAction 1496947459624 TestPlanetExplorer.java RENAME test_pomeriRotirajDIdiNazad()=>void test_pomeriRotirajDesnoDesnoIdiNazad() METHOD
 EditAction 1496947489842 TestPlanetExplorer.java 2707 17 34 17
+UnitTestCaseAction 1496947507738 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496947507739 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1496947535051 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496947535053 TestPlanetExplorer.java FAIL
+EditAction 1496947558888 TestPlanetExplorer.java 2707 17 34 17

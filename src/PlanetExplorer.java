@@ -47,6 +47,8 @@ public class PlanetExplorer {
 				case 1:
 					voziloX++;
 					break;
+				case 2:
+					voziloY--;
 				case 3:
 					voziloX--;
 					break;
