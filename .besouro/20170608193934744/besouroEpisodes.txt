@@ -51,3 +51,5 @@
 1496946469619 test-addition 1 81 true
 1496946469620 test-addition 2 81 true
 1496946469621 test-addition 1 81 true
+1496946495591 test-addition 1 19 true
+1496946495592 test-addition 1 19 true

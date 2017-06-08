@@ -70,4 +70,10 @@ public class TestPlanetExplorer {
 		assertEquals("(0,0,n)", p.executeCommand("rrrr"));
 	}
 	
+	@Test
+	public void test_pomeriRotirajLevoPunKrug(){
+		PlanetExplorer p = new PlanetExplorer(3, 3, "");
+		assertEquals("(0,0,n)", p.executeCommand("llll"));
+	}
+	
 }
