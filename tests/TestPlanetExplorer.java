@@ -40,4 +40,10 @@ public class TestPlanetExplorer {
 		assertEquals("(0,0,n)", p.executeCommand("fb"));
 	}
 	
+	@Test
+	public void test_pomeriNazadSaPrebacivanjem(){
+		PlanetExplorer p = new PlanetExplorer(3, 3, "");
+		assertEquals("(0,3,n)", p.executeCommand("b"));
+	}
+	
 }
