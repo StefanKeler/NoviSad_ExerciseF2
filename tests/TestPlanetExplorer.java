@@ -6,6 +6,7 @@ public class TestPlanetExplorer {
 
 	@Test
 	public void test_executeCommand() {
-		fail("Not yet implemented");
+		PlanetExplorer p = new PlanetExplorer(3, 3, "");
+		assertNotNull(p);
 	}
 }
