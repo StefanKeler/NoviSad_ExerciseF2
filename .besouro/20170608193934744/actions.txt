@@ -69,3 +69,6 @@ RefactoringAction 1496945052211 TestPlanetExplorer.java RENAME test_pa()=>void t
 RefactoringAction 1496945057227 TestPlanetExplorer.java RENAME test_pomeri()=>void test_pomeri1() METHOD
 RefactoringAction 1496945075293 TestPlanetExplorer.java RENAME test_pomeri1()=>void test_pomeriNapred() METHOD
 EditAction 1496945107333 TestPlanetExplorer.java 783 5 10 5
+UnitTestCaseAction 1496945132061 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496945132063 TestPlanetExplorer.java FAIL
+EditAction 1496945206479 TestPlanetExplorer.java 807 5 11 5
