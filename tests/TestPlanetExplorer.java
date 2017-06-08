@@ -100,4 +100,11 @@ public class TestPlanetExplorer {
 		assertEquals("(1,0,w)", p.executeCommand("lb"));
 	}
 	
+	@Test
+	public void test_pomeriRotirajDesnoDesnoIdiNazad(){
+		PlanetExplorer p = new PlanetExplorer(3, 3, "");
+		assertEquals("(0,2,w)", p.executeCommand("rrf"));
+	}
+	
+	
 }
