@@ -79,7 +79,7 @@ public class TestPlanetExplorer {
 	@Test
 	public void test_pomeriRotirajDesnoIdiNapred(){
 		PlanetExplorer p = new PlanetExplorer(3, 3, "");
-		assertEquals("(0,1,e)", p.executeCommand("rf"));
+		assertEquals("(1,0,e)", p.executeCommand("rf"));
 	}
 	
 }
