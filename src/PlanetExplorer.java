@@ -43,12 +43,14 @@ public class PlanetExplorer {
 				switch(intStrane){
 				case 0:
 					voziloY++;
-					if(voziloY == gridY){
-						voziloY = 0;
-					}
+					break;
+				case 1:
+					voziloX++;
 					break;
 				}
-				
+				if(voziloY == gridY){
+					voziloY = 0;
+				}
 			}else if (c.equals("b")){
 				voziloY--;
 				if(voziloY == -1){

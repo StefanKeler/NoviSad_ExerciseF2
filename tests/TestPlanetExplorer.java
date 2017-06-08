@@ -82,4 +82,10 @@ public class TestPlanetExplorer {
 		assertEquals("(1,0,e)", p.executeCommand("rf"));
 	}
 	
+	@Test
+	public void test_pomeriRotirajLevoIdiNapred(){
+		PlanetExplorer p = new PlanetExplorer(3, 3, "");
+		assertEquals("(2,0,e)", p.executeCommand("lf"));
+	}
+	
 }
