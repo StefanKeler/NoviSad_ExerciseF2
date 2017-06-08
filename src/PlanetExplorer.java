@@ -49,6 +49,7 @@ public class PlanetExplorer {
 					break;
 				case 2:
 					voziloY--;
+					break;
 				case 3:
 					voziloX--;
 					break;
@@ -79,6 +80,7 @@ public class PlanetExplorer {
 				if(intStrane == - 1)
 					intStrane = 3;
 			}
+			
 			proveri();
 		}
 		

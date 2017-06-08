@@ -101,9 +101,16 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_pomeriRotirajDesnoDesnoIdiNazad(){
+	public void test_pomeriRotirajDesnoDesnoIdiNapred(){
 		PlanetExplorer p = new PlanetExplorer(3, 3, "");
 		assertEquals("(0,2,s)", p.executeCommand("rrf"));
+	}
+	
+	
+	@Test
+	public void test_pomeriRotirajDesnoDesnoIdiNazad(){
+		PlanetExplorer p = new PlanetExplorer(3, 3, "");
+		assertEquals("(0,1,s)", p.executeCommand("rrb"));
 	}
 	
 	

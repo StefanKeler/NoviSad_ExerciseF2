@@ -209,3 +209,22 @@ UnitTestSessionAction 1496947507739 TestPlanetExplorer.java FAIL
 UnitTestCaseAction 1496947535051 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1496947535053 TestPlanetExplorer.java FAIL
 EditAction 1496947558888 TestPlanetExplorer.java 2707 17 34 17
+UnitTestCaseAction 1496947567203 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496947567205 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1496947731435 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496947731437 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1496947734575 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496947734577 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1496947738474 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496947738475 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1496947744460 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496947744461 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1496947763381 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496947763382 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1496947773562 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496947773564 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1496947835822 TestPlanetExplorer.java OK
+UnitTestSessionAction 1496947835824 TestPlanetExplorer.java OK
+RefactoringAction 1496947840522 TestPlanetExplorer.java ADD void test_pomeriRotirajDesnoDesnoIdiNazad()/2 METHOD
+RefactoringAction 1496947856043 TestPlanetExplorer.java RENAME test_pomeriRotirajDesnoDesnoIdiNazad()/2=>void test_pomeriRotirajDesnoDesnoIdiNapred() METHOD
+EditAction 1496947871391 TestPlanetExplorer.java 2878 18 36 18
