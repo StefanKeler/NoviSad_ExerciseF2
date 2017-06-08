@@ -96,3 +96,6 @@ RefactoringAction 1496945658727 TestPlanetExplorer.java ADD void test_pomeriNapr
 RefactoringAction 1496945664743 TestPlanetExplorer.java RENAME test_pomeriNapred()/2=>void test_pomeriDesno() METHOD
 RefactoringAction 1496945680774 TestPlanetExplorer.java RENAME test_pomeriDesno()=>void test_pomeriNazad() METHOD
 EditAction 1496945693412 TestPlanetExplorer.java 934 6 12 6
+UnitTestCaseAction 1496945707769 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496945707772 TestPlanetExplorer.java FAIL
+EditAction 1496945748901 TestPlanetExplorer.java 934 6 12 6
