@@ -14,3 +14,22 @@ EditAction 1496944375898 TestPlanetExplorer.java 358 2 4 2
 CompilationAction 1496944383769 TestPlanetExplorer.java
 RefactoringAction 1496944391763 PlanetExplorer.java ADD Object METHOD
 EditAction 1496944410487 PlanetExplorer.java 1330 3 2 0
+CompilationAction 1496944418277 TestPlanetExplorer.java
+RefactoringAction 1496944428088 TestPlanetExplorer.java ADD void assertArrayEquals(String, String) METHOD
+RefactoringAction 1496944438869 TestPlanetExplorer.java REMOVE assertArrayEquals(String, String) METHOD
+CompilationAction 1496944447131 TestPlanetExplorer.java
+UnitTestCaseAction 1496944448085 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496944448086 TestPlanetExplorer.java FAIL
+RefactoringAction 1496944480936 PlanetExplorer.java ADD int x FIELD
+RefactoringAction 1496944480938 PlanetExplorer.java ADD int y FIELD
+UnitTestCaseAction 1496944497893 TestPlanetExplorer.java OK
+UnitTestSessionAction 1496944497894 TestPlanetExplorer.java OK
+RefactoringAction 1496944520034 PlanetExplorer.java RENAME x=>int gr FIELD
+RefactoringAction 1496944521545 PlanetExplorer.java RENAME gr=>int gridX FIELD
+RefactoringAction 1496944523557 PlanetExplorer.java RENAME y=>int gridY FIELD
+UnitTestCaseAction 1496944538261 TestPlanetExplorer.java OK
+UnitTestSessionAction 1496944538263 TestPlanetExplorer.java OK
+RefactoringAction 1496944549516 TestPlanetExplorer.java ADD void test_ FIELD
+RefactoringAction 1496944557031 TestPlanetExplorer.java RENAME test_=>void test_pocetneKoordinate() METHOD
+RefactoringAction 1496944585599 PlanetExplorer.java ADD Object getVoziloKoor() METHOD
+EditAction 1496944592941 PlanetExplorer.java 1488 4 5 0
