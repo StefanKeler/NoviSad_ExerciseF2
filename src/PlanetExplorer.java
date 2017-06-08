@@ -28,4 +28,9 @@ public class PlanetExplorer {
 		
 		return null;
 	}
+
+	public String getGridSize() {
+		// TODO Auto-generated method stub
+		return "";
+	}
 }
