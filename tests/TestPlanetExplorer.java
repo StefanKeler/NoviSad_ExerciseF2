@@ -85,7 +85,7 @@ public class TestPlanetExplorer {
 	@Test
 	public void test_pomeriRotirajLevoIdiNapred(){
 		PlanetExplorer p = new PlanetExplorer(3, 3, "");
-		assertEquals("(2,0,e)", p.executeCommand("lf"));
+		assertEquals("(2,0,w)", p.executeCommand("lf"));
 	}
 	
 }
