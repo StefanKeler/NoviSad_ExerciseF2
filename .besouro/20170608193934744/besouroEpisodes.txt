@@ -44,3 +44,6 @@
 1496946062927 test-addition 1 75 true
 1496946167985 test-addition 1 90 true
 1496946167986 test-addition 1 90 true
+1496946378676 refactoring 2B 200 true
+1496946378677 refactoring 2B 200 true
+1496946378678 regression 2 200 true

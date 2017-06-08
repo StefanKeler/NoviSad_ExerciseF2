@@ -131,3 +131,9 @@ UnitTestCaseAction 1496946178372 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1496946178374 TestPlanetExplorer.java FAIL
 RefactoringAction 1496946232600 PlanetExplorer.java ADD String strane FIELD
 EditAction 1496946266777 TestPlanetExplorer.java 1413 9 18 9
+RefactoringAction 1496946303834 PlanetExplorer.java ADD int intStrane FIELD
+UnitTestCaseAction 1496946378674 TestPlanetExplorer.java OK
+UnitTestSessionAction 1496946378676 TestPlanetExplorer.java OK
+RefactoringAction 1496946388096 TestPlanetExplorer.java ADD void test_pomeriRotirajDesno()/2 METHOD
+RefactoringAction 1496946391608 TestPlanetExplorer.java RENAME test_pomeriRotirajDesno()/2=>void test_pomeriRotirajLevo() METHOD
+EditAction 1496946399612 TestPlanetExplorer.java 1565 10 20 10
