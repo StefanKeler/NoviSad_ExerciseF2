@@ -5,6 +5,7 @@
 
 public class PlanetExplorer {
 	int gridX,gridY;
+	int voziloX,voziloY;
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
@@ -15,6 +16,8 @@ public class PlanetExplorer {
 	 */
 		this.gridX = x;
 		this.gridY = y;
+		voziloX = 0;
+		voziloY = 0;
 	}
 	
 	public String executeCommand(String command){
@@ -39,6 +42,6 @@ public class PlanetExplorer {
 
 	public String getVoziloKoor() {
 		// TODO Auto-generated method stub
-		return "";
+		return "(" + voziloX + "," + voziloY + ")";
 	}
 }

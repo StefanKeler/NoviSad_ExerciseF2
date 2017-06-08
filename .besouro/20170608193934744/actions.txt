@@ -34,3 +34,13 @@ RefactoringAction 1496944557031 TestPlanetExplorer.java RENAME test_=>void test_
 RefactoringAction 1496944585599 PlanetExplorer.java ADD Object getVoziloKoor() METHOD
 EditAction 1496944592941 PlanetExplorer.java 1488 4 5 0
 EditAction 1496944609110 TestPlanetExplorer.java 500 3 6 3
+UnitTestCaseAction 1496944619805 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496944619807 TestPlanetExplorer.java FAIL
+RefactoringAction 1496944635757 PlanetExplorer.java ADD int voziloX FIELD
+RefactoringAction 1496944635759 PlanetExplorer.java ADD int vozilo FIELD
+RefactoringAction 1496944645279 PlanetExplorer.java RENAME vozilo=>vozilo Y FIELD
+RefactoringAction 1496944647799 PlanetExplorer.java RENAME voziloXvozilo=>int voziloX FIELD
+RefactoringAction 1496944649814 PlanetExplorer.java RENAME vozilo=>int voziloY FIELD
+UnitTestCaseAction 1496944707212 TestPlanetExplorer.java OK
+UnitTestSessionAction 1496944707214 TestPlanetExplorer.java OK
+EditAction 1496944748949 PlanetExplorer.java 1573 4 7 0
