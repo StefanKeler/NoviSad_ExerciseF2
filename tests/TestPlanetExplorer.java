@@ -113,5 +113,12 @@ public class TestPlanetExplorer {
 		assertEquals("(0,1,s)", p.executeCommand("rrb"));
 	}
 	
+	@Test(expected = PlanetExplorerException.class)
+	public void test_exceptionPogresanUnos(){
+		PlanetExplorer p = new PlanetExplorer(3, 3, "");
+		p.executeCommand("rrb");
+	}
+	
+	
 	
 }
