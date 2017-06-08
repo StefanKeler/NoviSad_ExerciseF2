@@ -40,6 +40,9 @@ public class PlanetExplorer {
 				voziloY++;
 			}else if (c.equals("b")){
 				voziloY--;
+				if(voziloY == -1){
+					voziloY = gridY - 1;
+				}
 			}
 		}
 		

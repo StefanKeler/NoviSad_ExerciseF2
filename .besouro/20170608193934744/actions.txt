@@ -110,3 +110,10 @@ RefactoringAction 1496945875523 TestPlanetExplorer.java ADD void test_pomeriNaza
 RefactoringAction 1496945880546 TestPlanetExplorer.java RENAME test_pomeriNazad()/2=>void test_pomeriNazadSaPrebacivanjem() METHOD
 EditAction 1496945896414 TestPlanetExplorer.java 1096 7 14 7
 EditAction 1496945910805 TestPlanetExplorer.java 1096 7 14 7
+UnitTestCaseAction 1496945930904 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496945930906 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1496945975691 TestPlanetExplorer.java OK
+UnitTestSessionAction 1496945975692 TestPlanetExplorer.java OK
+RefactoringAction 1496945987168 TestPlanetExplorer.java ADD void test_pomeriNazadSaPrebacivanjem()/2 METHOD
+RefactoringAction 1496945991679 TestPlanetExplorer.java RENAME test_pomeriNazadSaPrebacivanjem()/2=>void test_pomeriNapredSaPrebacivanjem() METHOD
+EditAction 1496946010637 TestPlanetExplorer.java 1260 8 16 8
