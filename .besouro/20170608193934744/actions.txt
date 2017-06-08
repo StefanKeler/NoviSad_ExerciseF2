@@ -51,3 +51,4 @@ RefactoringAction 1496944878424 TestPlanetExplorer.java RENAME test_pocetneKoord
 RefactoringAction 1496944881934 TestPlanetExplorer.java RENAME test_pocetnA()=>void test_pocetnaStrana() METHOD
 RefactoringAction 1496944911834 PlanetExplorer.java ADD Object getVoziloStrana() METHOD
 EditAction 1496944919371 PlanetExplorer.java 1662 5 8 0
+EditAction 1496944931832 TestPlanetExplorer.java 639 4 8 4
