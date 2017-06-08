@@ -179,3 +179,12 @@ EditAction 1496946917080 TestPlanetExplorer.java 2215 14 28 14
 UnitTestCaseAction 1496946933063 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1496946933064 TestPlanetExplorer.java FAIL
 EditAction 1496946942553 TestPlanetExplorer.java 2215 14 28 14
+UnitTestCaseAction 1496946951134 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496946951136 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1496947034256 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496947034258 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1496947082507 TestPlanetExplorer.java OK
+UnitTestSessionAction 1496947082509 TestPlanetExplorer.java OK
+RefactoringAction 1496947094012 TestPlanetExplorer.java ADD void test_pomeriRotirajDesnoIdiNapred()/2 METHOD
+RefactoringAction 1496947103535 TestPlanetExplorer.java RENAME test_pomeriRotirajDesnoIdiNapred()/2=>void test_pomeriRotirajDesnoIdiNazad() METHOD
+EditAction 1496947128504 TestPlanetExplorer.java 2377 15 30 15

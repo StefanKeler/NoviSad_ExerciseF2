@@ -47,9 +47,17 @@ public class PlanetExplorer {
 				case 1:
 					voziloX++;
 					break;
+				case 3:
+					voziloX--;
+					break;
 				}
+				
+				
 				if(voziloY == gridY){
 					voziloY = 0;
+				}
+				if(voziloX == -1){
+					voziloX = gridX - 1;
 				}
 			}else if (c.equals("b")){
 				voziloY--;
