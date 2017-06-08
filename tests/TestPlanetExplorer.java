@@ -31,7 +31,7 @@ public class TestPlanetExplorer {
 	@Test
 	public void test_pomeriNapred(){
 		PlanetExplorer p = new PlanetExplorer(3, 3, "");
-		assertEquals("(0,1,f)", p.executeCommand("f"));
+		assertEquals("(0,1,n)", p.executeCommand("f"));
 	}
 	
 }
