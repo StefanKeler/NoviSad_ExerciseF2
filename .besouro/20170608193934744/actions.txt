@@ -4,3 +4,10 @@ UnitTestSessionAction 1496944023522 TestPlanetExplorer.java FAIL
 UnitTestCaseAction 1496944037545 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1496944037547 TestPlanetExplorer.java FAIL
 EditAction 1496944197469 TestPlanetExplorer.java 214 1 2 1
+UnitTestCaseAction 1496944208481 TestPlanetExplorer.java OK
+UnitTestSessionAction 1496944208485 TestPlanetExplorer.java OK
+RefactoringAction 1496944233982 TestPlanetExplorer.java ADD void test_ FIELD
+RefactoringAction 1496944238498 TestPlanetExplorer.java RENAME test_=>void test_dimenzije FIELD
+RefactoringAction 1496944239506 TestPlanetExplorer.java RENAME test_dimenzije=>void test_dimenzije() METHOD
+RefactoringAction 1496944303587 TestPlanetExplorer.java RENAME test_dimenzije()=>void test_dimenzijeGrida() METHOD
+EditAction 1496944375898 TestPlanetExplorer.java 358 2 4 2
