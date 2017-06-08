@@ -43,7 +43,7 @@ public class TestPlanetExplorer {
 	@Test
 	public void test_pomeriNazadSaPrebacivanjem(){
 		PlanetExplorer p = new PlanetExplorer(3, 3, "");
-		assertEquals("(0,3,n)", p.executeCommand("b"));
+		assertEquals("(0,2,n)", p.executeCommand("b"));
 	}
 	
 }
