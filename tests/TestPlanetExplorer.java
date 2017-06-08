@@ -55,7 +55,7 @@ public class TestPlanetExplorer {
 	@Test
 	public void test_pomeriRotirajDesno(){
 		PlanetExplorer p = new PlanetExplorer(3, 3, "");
-		assertEquals("(0,0,i)", p.executeCommand("r"));
+		assertEquals("(0,0,e)", p.executeCommand("r"));
 	}
 	
 }

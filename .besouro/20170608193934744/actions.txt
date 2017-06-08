@@ -125,3 +125,9 @@ RefactoringAction 1496946077273 TestPlanetExplorer.java ADD void test_pomeriNapr
 RefactoringAction 1496946081784 TestPlanetExplorer.java RENAME test_pomeriNapredSaPrebacivanjem()/2=>void test_pomeriRotiraj() METHOD
 RefactoringAction 1496946091805 TestPlanetExplorer.java RENAME test_pomeriRotiraj()=>void test_pomeriRotirajDesno() METHOD
 EditAction 1496946159025 TestPlanetExplorer.java 1413 9 18 9
+UnitTestCaseAction 1496946167983 TestPlanetExplorer.java OK
+UnitTestSessionAction 1496946167985 TestPlanetExplorer.test_pomeriNapredSaPrebacivanjem OK
+UnitTestCaseAction 1496946178372 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496946178374 TestPlanetExplorer.java FAIL
+RefactoringAction 1496946232600 PlanetExplorer.java ADD String strane FIELD
+EditAction 1496946266777 TestPlanetExplorer.java 1413 9 18 9
