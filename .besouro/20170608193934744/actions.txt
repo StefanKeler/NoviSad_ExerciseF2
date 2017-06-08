@@ -44,3 +44,10 @@ RefactoringAction 1496944649814 PlanetExplorer.java RENAME vozilo=>int voziloY F
 UnitTestCaseAction 1496944707212 TestPlanetExplorer.java OK
 UnitTestSessionAction 1496944707214 TestPlanetExplorer.java OK
 EditAction 1496944748949 PlanetExplorer.java 1573 4 7 0
+UnitTestCaseAction 1496944759960 TestPlanetExplorer.java OK
+UnitTestSessionAction 1496944759962 TestPlanetExplorer.java OK
+RefactoringAction 1496944865397 TestPlanetExplorer.java ADD void test_pocetneKoordinate()/2 METHOD
+RefactoringAction 1496944878424 TestPlanetExplorer.java RENAME test_pocetneKoordinate()/2=>void test_pocetnA() METHOD
+RefactoringAction 1496944881934 TestPlanetExplorer.java RENAME test_pocetnA()=>void test_pocetnaStrana() METHOD
+RefactoringAction 1496944911834 PlanetExplorer.java ADD Object getVoziloStrana() METHOD
+EditAction 1496944919371 PlanetExplorer.java 1662 5 8 0

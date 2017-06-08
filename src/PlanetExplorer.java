@@ -44,4 +44,9 @@ public class PlanetExplorer {
 		// TODO Auto-generated method stub
 		return "(" + voziloX + "," + voziloY + ")";
 	}
+
+	public String getVoziloStrana() {
+		// TODO Auto-generated method stub
+		return "";
+	}
 }
