@@ -27,4 +27,11 @@ public class TestPlanetExplorer {
 		PlanetExplorer p = new PlanetExplorer(3, 3, "");
 		assertEquals("n", p.getVoziloStrana());
 	}
+	
+	@Test
+	public void test_pomeriNapred(){
+		PlanetExplorer p = new PlanetExplorer(3, 3, "f");
+		assertEquals("(0,1)", p.getVoziloKoor());
+	}
+	
 }

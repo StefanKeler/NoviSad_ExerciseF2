@@ -61,3 +61,11 @@ RefactoringAction 1496944968382 PlanetExplorer.java ADD String strana FIELD
 UnitTestCaseAction 1496944994184 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1496944994186 TestPlanetExplorer.java FAIL
 EditAction 1496945004047 PlanetExplorer.java 1698 5 9 0
+UnitTestCaseAction 1496945018290 TestPlanetExplorer.java OK
+UnitTestSessionAction 1496945018291 TestPlanetExplorer.java OK
+RefactoringAction 1496945044683 TestPlanetExplorer.java ADD void test_dimenzijeGrida()/2 METHOD
+RefactoringAction 1496945049197 TestPlanetExplorer.java RENAME test_dimenzijeGrida()/2=>void test_pa() METHOD
+RefactoringAction 1496945052211 TestPlanetExplorer.java RENAME test_pa()=>void test_pomeri() METHOD
+RefactoringAction 1496945057227 TestPlanetExplorer.java RENAME test_pomeri()=>void test_pomeri1() METHOD
+RefactoringAction 1496945075293 TestPlanetExplorer.java RENAME test_pomeri1()=>void test_pomeriNapred() METHOD
+EditAction 1496945107333 TestPlanetExplorer.java 783 5 10 5
