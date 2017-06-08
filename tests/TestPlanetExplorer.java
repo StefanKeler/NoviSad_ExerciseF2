@@ -32,7 +32,7 @@ public class TestPlanetExplorer {
 	public void test_pomeriNapred(){
 		PlanetExplorer p = new PlanetExplorer(3, 3, "");
 		p.executeCommand("f");
-		assertEquals("(0,1)", p.getVoziloKoor());
+		assertEquals("(0,1,f)", p.getVoziloKoor());
 	}
 	
 }
